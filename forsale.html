@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>SeBan Real Estate</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <div class="top-nav">
+            <li><i class="loc"><i class="fa fa-volume-control-phone"></i></i>03030305462</li>
+            <li><i class="loc"><i class="fa fa-envelope-open-o"></i></i>sebanrealestate@gmail.com</li>
+            <li><i  class="loc"><i class="fa fa-map-marker"></i></i>Afianya kosoa Nyanyano</li>
+            <li><i><a href="#" class="fa fa-facebook"></a></i></li>
+            <li><i><a href="#" class="fa fa-twitter"></a></i></li>
+            <li><i><a href="#" class="fa fa-instagram"></a></i></li>
+            <li><i><a href="#" class="fa fa-pinterest"></a></i></li>
+        </div>
+        <div class="main-nav" id="Mynav">
+          <ul>
+          <li><a href="index.html"> <span class="material-icons">home</span>Home</a></li>
+          <li><a href="forsale.html"><span class="material-icons">photo_library</span>For Sale</a></li>
+          <li><a href="rent.html"><span class="material-icons">photo_library</span>For Rent</a></li>
+          <li><a href="#"><span class="material-icons">home_work</span>Ongoing Projects</a></li>
+          <li><a href="agent.html"><span class="material-icons">group</span>Agents</a></li>
+          <li><a href="contact.html"><span class="material-icons">perm_phone_msg</span>Contact Us</a></li>
+        </ul>
+        <div class="logo">SeBan Estate</div>
+      </div>
+      </div>
+      <div class="btn" onclick="toggleNav()"><i class="material-icons">menu</i></div>
+    </nav>
+
+    <div id="navbar">
+      <a href="#sale-description">Description</a>
+      <a href="#container-Slider">Gallery</a>
+      <a href="#video-section">Video</a>
+      <a href="#property-details">Detail</a>
+      <a href="#contact">Floor Plan</a>
+      <a href="#contact">Neighborhood</a>
+    </div>
+
+    <div class="sale-description" id="sale-description">
+      <span>Property Brief</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+         laborum.<br><br> <p class="text-two">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+       </p>
+        <span>Location</span>
+        <div class="sale-details">
+          <div class="sale-location">Address : 42 Albemarle st.<br>State/county : New York</div>
+          <div class="sale-location">Neighborhood : Andersonville<br>Zip/Postal Code : 4203</div>
+          <div class="sale-location">Country : United States<br>Accra city</div>
+        </div>
+    </div>
+
+    <div class="container-Slider" id="container-Slider">
+          <span>Gallery</span>
+      <div class="main-img">
+        <img src="img/a4.jpg" alt="" id="currentimg">
+      </div>
+      <div class="imgs">
+        <img src="img/a1.jpg" alt="">
+        <img src="img/a2.jpg" alt="">
+        <img src="img/a2.jpg" alt="">
+        <img src="img/a4.jpg" alt="">
+        <img src="img/a2.jpg" alt="">
+        <img src="img/a1.jpg" alt="">
+      </div>
+    </div>
+
+      <p class="video-title">Property Video</p>
+    <div class="video-section" id="video-section">
+      <!-- <span>Video</span> -->
+      <iframe src="https://www.youtube.com/embed/Gp-WUXakD_Y?start=43" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <p class="prp-title">Property Details</p>
+    <div class="property-details" id="property-details">
+      <div class="property-location">Property ID : ZOAC25<br>Property Type : Apartment<br>Property status : For rent</div>
+      <div class="property-location">Property Price : $5300/month<br>Rooms : 6<br> Bedroom: 4</div>
+      <div class="property-location">Bath: 3<br>Garages: 1<br>Year Built: 26.3.2019</div>
+    </div>
+    <p class="prp-title">Amenities</p>
+    <div class="property-details">
+      <p class="property-location">
+        <span><i class="fa fa-soccer-ball-o"></i>basketball court</span><br>
+        <span><i class="fa fa-ban"></i>No Smoking zone</span><br>
+        <span><i class="fa fa-taxi"></i>Free Parking on premises</span><br>
+        <span><i class="fa fa-snowflake-o"></i>Air Conditioned</span><br>
+      </p>
+      <p class="property-location">
+        <span><i class='fas fa-skiing'></i>Gym</span><br>
+        <span><i class="fa fa-wheelchair"></i>Wheelchair Friendly</span><br>
+        <span><i class='fas fa-swimmer'></i>Swimming Pool</span><br>
+        <span><i class='fas fa-cat'></i>Pet Friendly</span><br>
+      </p>
+      <p class="property-location">
+        <span><i class="fa fa-shower"></i>washer and dryer</span><br>
+        <span><i class='fas fa-desktop'></i></i>Home Theater</span><br>
+        <span><i class="fa fa-s15"></i>2 bathrooms</span><br>
+        <span><i class="fa fa-car"></i>2 garages</span><br>
+      </p>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+     <footer class="site-footer">
+         <div class="container">
+           <div class="row">
+             <div class="col-md-8 col-sm-6 col-xs-12">
+               <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+            <a href="#">iammavisenyonam</a>.
+               </p>
+             </div>
+
+             <div class="col-md-4 col-sm-6 col-xs-12">
+               <ul class="social-icons">
+                 <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                 <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                 <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                 <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+               </ul>
+             </div>
+           </div>
+         </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+      </body>
+      <script src="main.js" charset="utf-8"></script>
+    </html>

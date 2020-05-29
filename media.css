@@ -1,0 +1,154 @@
+@media screen and (max-width:900px) {
+.top-nav{display: none;}
+.main-nav  a{
+      display: none;
+    }
+.logo{
+      margin-top: -40px;
+    }
+.main-nav.responsive ul{
+     display: block;
+     background-color:#008c71;
+     margin-top: -25px;
+
+   }
+.main-nav.responsive a{
+     float: none;
+     display: block;
+     text-align: left;
+     margin-top: 17px;
+     border-bottom:1px solid #009879;
+   }
+.main-nav.responsive .logo{
+    display: none;
+  }
+.main-nav.responsive .material-icons{
+    display: inline-block;
+    margin-right:5px;
+  }
+.btn i{
+    display: block;
+    float: right;
+    margin-top: -40px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.background-form{
+  background-color: rgb(245, 246, 247);
+  box-shadow: none;
+}
+.background-form input{
+  width: 96%;
+}
+.background-form select{
+  width: 100%;
+}
+.section-2{
+  margin-top: 10px;
+}
+.submit{
+  width: 40%;
+}
+.title{
+  color: #000;
+}
+.pcategory{
+    margin-top: 380px;
+    margin-left:50px;
+}
+.pnumber{
+    padding-left:7px;
+}
+.recent-category{
+  margin-left:50px;
+}
+.recent-img img:hover{
+  -webkit-transform: none;
+  transform:none;
+}
+.recent-img img{
+height: 90px;
+}
+.maintext{
+  display: none;
+}
+.site-footer .copyright-text,.site-footer .social-icons{
+  text-align:center
+}
+
+
+.contact-details{
+  margin-left: 40px;
+}
+.contact-map{
+flex-direction: column-reverse;
+width: 93%;
+}
+.contact-form{
+  width: 450px;
+}
+#map{
+  width: 450px;
+}
+
+
+
+.agent-section{
+flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.section-one,.section-two,.section-three{
+  width: 100%;
+  margin-bottom: 70px;
+}
+.locs{
+  padding-left: 30px;
+}
+
+
+#navbar {
+  margin-left: 50px;
+  margin-top:30px;
+}
+.sale-description{
+  margin-top: 140px;
+  margin-left:50px;
+  height: 500px;
+}
+.text-two{
+  display: none;
+}
+.sale-details{
+  margin-top: 20px;
+}
+.sale-description  span{
+  margin-top: -40px;
+}
+.container-Slider{
+  height: 620px;
+  margin-top:50px;
+}
+
+.video-title{
+  margin-left:25px;
+  margin-right: 50px;
+  width: 92%;
+}
+.video-section{
+  width: 92%;
+  margin-left: 25px;
+}
+.video-section iframe{
+  width: 400px;
+}
+.prp-title{
+  margin-left:20px;
+  width: 84%;
+}
+.property-details{
+  margin-left:20px;
+  overflow: hidden;
+}
